@@ -4,11 +4,11 @@ Project Description :
 As a user in order to collate the information required to get quotes from companies that provide the energy,  I want a website which will allow me to search with different options to compare and find the best price for my energy.
 
 Prerequisites :
-IDE :  example: Eclipse, IntelliJ 
-Operating system : Windows OS /Mac OS
-Browser i used : Firefox version 54.0
-Maven version : maven 3.3.0 or above version
-Java version : Java 1.8
+IDE :  example: Eclipse, IntelliJ ( I used Eclipse Version: Neon.1a Release (4.6.1))
+Operating system : Windows OS /Mac OS ( I used Windows 8 64 bit)
+Browser i used : Firefox version 55.0
+Maven version : maven 3.3.0 or above version (I used maven 3.5.3)
+Java version : Java 1.8 (I used java 1.8.0_171)
 
 Running the Tests:
 To run all tests follow either of below step :
@@ -30,3 +30,7 @@ Note : GasTestsRunner.java location is src\test\java\com\test\runner\GasTestsRun
    (i) Right click on GasElectricityTestsRunner.java --> Run As --> JUnit Test
 Note :-> GasElectricityTestsRunner.java location as below : 
                 src\test\java\com\test\runner\GasElectricityTestsRunner.java
+                
+ Additional Information : 
+- Please note that when you execute browser window will appear in full screen. I did that for more visibility.
+- I have covered testing major functionalities in this framework. But still there is a scope to test additional functionalities especially in resulst page like more tariffs, more details, personalise filter results, tariff features ..... etc. 
