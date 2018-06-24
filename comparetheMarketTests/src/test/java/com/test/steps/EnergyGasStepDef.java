@@ -1,19 +1,11 @@
 package com.test.steps;
 
 import static org.junit.Assert.assertEquals;
-
-import org.openqa.selenium.JavascriptExecutor;
-
-import com.test.pages.EnergyElectricityPlatform;
 import com.test.pages.EnergyGasPlatform;
-import com.test.pages.EnergySupplierPlatform;
-
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class EnergyGasStepDef  extends CommonUsefulMethods {
-	//CommonUsefulMethods common = new CommonUsefulMethods();
+public class EnergyGasStepDef extends Common {
 
 	public EnergyGasPlatform EnergyGasPlatformPage;
 
@@ -30,7 +22,7 @@ public class EnergyGasStepDef  extends CommonUsefulMethods {
 	public void i_select_as_my_current_gas_tariff_under_drop_down_option(String planName) throws Throwable {
 		EnergyGasPlatformPage.selectGasPlan(planName);
 	}
-	
+
 	@Then("^I select \"([^\"]*)\" as my gas method of pay under drop down option$")
 	public void i_select_as_my_gas_method_of_pay_under_drop_down_option(String mode) throws Throwable {
 		EnergyGasPlatformPage.gasPayMode(mode);

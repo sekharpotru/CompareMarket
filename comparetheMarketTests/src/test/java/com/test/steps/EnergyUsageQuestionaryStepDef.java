@@ -1,20 +1,11 @@
 package com.test.steps;
 
 import static org.junit.Assert.assertEquals;
-
-import org.openqa.selenium.JavascriptExecutor;
-
-import com.test.pages.EnergyElectricityPlatform;
-import com.test.pages.EnergyGasPlatform;
-import com.test.pages.EnergySupplierPlatform;
 import com.test.pages.EnergyUsagePlatform;
-
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class EnergyUsageQuestionaryStepDef  extends CommonUsefulMethods {
-	//CommonUsefulMethods common = new CommonUsefulMethods();
+public class EnergyUsageQuestionaryStepDef extends Common {
 
 	public EnergyUsagePlatform EnergyUsagePlatformPage;
 
@@ -26,7 +17,7 @@ public class EnergyUsageQuestionaryStepDef  extends CommonUsefulMethods {
 	public void i_should_be_able_to_navigate_to_page(String title) throws Throwable {
 		assertEquals(title, EnergyUsagePlatformPage.getPageTitle());
 	}
-	
+
 	@Then("^I should be able to navigate to \"([^\"]*)\" web page$")
 	public void i_should_be_able_to_navigate_to_web_page(String title) throws Throwable {
 		assertEquals(title, EnergyUsagePlatformPage.getUsagePageTitle());

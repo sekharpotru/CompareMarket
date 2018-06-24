@@ -255,7 +255,6 @@ public class EnergyResultsPlatform {
 		java.util.List<WebElement> results = driver
 				.findElements(By.xpath("//*[@id='tariffs-for-me']/div/section/table//tr"));
 		int size = results.size();
-		System.out.println("results size is :::::::" + size);
 		return size;
 	}
 

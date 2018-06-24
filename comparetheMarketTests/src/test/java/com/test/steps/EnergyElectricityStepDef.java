@@ -1,37 +1,30 @@
 package com.test.steps;
 
 import static org.junit.Assert.assertEquals;
-
-import org.openqa.selenium.JavascriptExecutor;
-
 import com.test.pages.EnergyElectricityPlatform;
-import com.test.pages.EnergySupplierPlatform;
-
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class EnergyElectricityStepDef extends CommonUsefulMethods {
-	//CommonUsefulMethods common = new CommonUsefulMethods();
+public class EnergyElectricityStepDef extends Common {
 
 	public EnergyElectricityPlatform EnergyElectricityPlatformPage;
 
 	public EnergyElectricityStepDef() {
 		EnergyElectricityPlatformPage = new EnergyElectricityPlatform(driver);
 	}
-	
+
 	@Then("^I should be able to navigate to energy electricity page$")
 	public void i_should_be_able_to_navigate_to_energy_electricity_page() throws Throwable {
 		assertEquals("Electricity", EnergyElectricityPlatformPage.getPageTitle());
 	}
-	
+
 	@Then("^I should be able to navigate to energy page$")
 	public void i_should_be_able_to_navigate_to_energy_page() throws Throwable {
 		assertEquals("Your Energy", EnergyElectricityPlatformPage.getEnergyPageTitle());
 	}
 
-	@Then("^I select \"([^\"]*)\" as my current electricity tariff under drop down option$")
-	public void i_select_as_my_current_electricity_tariff_under_drop_down_option(String planName) throws Throwable {
+	@Then("^I select \"([^\"]*)\" as my current electricity plan under drop down option$")
+	public void i_select_as_my_current_electricity_plan_under_drop_down_option(String planName) throws Throwable {
 		EnergyElectricityPlatformPage.selectElePlan(planName);
 	}
 
@@ -39,12 +32,12 @@ public class EnergyElectricityStepDef extends CommonUsefulMethods {
 	public void i_check_the_Yes_checkbox_as_i_have_an_Economy_meter(int arg1) throws Throwable {
 		EnergyElectricityPlatformPage.economyMeterYes();
 	}
-	
+
 	@Then("^I check the No checkbox as i do not have an Economy (\\d+) meter$")
 	public void i_check_the_No_checkbox_as_i_do_not_have_an_Economy_meter(int arg1) throws Throwable {
 		EnergyElectricityPlatformPage.economyMeterNo();
 	}
-	
+
 	@Then("^I check the No checkbox as i do not use pre-payment meter$")
 	public void i_check_the_No_checkbox_as_i_don_t_use_pre_payment_meter() throws Throwable {
 		EnergyElectricityPlatformPage.prePayMeterNo();
@@ -69,7 +62,7 @@ public class EnergyElectricityStepDef extends CommonUsefulMethods {
 	public void i_select_as_option_from_drop_down_to_enter_day_electricity_usage(String period) throws Throwable {
 		EnergyElectricityPlatformPage.eleUsagePeriod(period);
 	}
-	
+
 	@Then("^I select electricity current spend period as \"([^\"]*)\" from drop down option$")
 	public void i_select_electricity_current_spend_period_as_from_drop_down_option(String period) throws Throwable {
 		EnergyElectricityPlatformPage.currentEleSpendPeriod(period);

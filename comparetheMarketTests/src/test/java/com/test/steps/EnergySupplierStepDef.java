@@ -1,25 +1,19 @@
 package com.test.steps;
 
 import static org.junit.Assert.assertEquals;
-
-import org.openqa.selenium.JavascriptExecutor;
-
 import com.test.pages.EnergySupplierPlatform;
 import com.test.pages.Utilityfunc;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class EnergySupplierStepDef  extends CommonUsefulMethods {
-	//CommonUsefulMethods common = new CommonUsefulMethods();
+public class EnergySupplierStepDef extends Common {
 	Utilityfunc util = new Utilityfunc();
 
 	public EnergySupplierPlatform EnergySupplierPlatformPage;
 
 	public EnergySupplierStepDef() {
 		EnergySupplierPlatformPage = new EnergySupplierPlatform(driver);
-		System.out.println("AFTER DRIVER VALUE IS ");
 	}
 
 	@Given("^I navigate to energy comparethemarket website$")
@@ -75,7 +69,7 @@ public class EnergySupplierStepDef  extends CommonUsefulMethods {
 
 		EnergySupplierPlatformPage.selectEdfEnergyElectricity();
 	}
-	
+
 	@Then("^I click on British Gas as my current gas supplier$")
 	public void i_click_on_British_Gas_as_my_current_gas_supplier() throws Throwable {
 
@@ -86,11 +80,6 @@ public class EnergySupplierStepDef  extends CommonUsefulMethods {
 	public void i_select_as_my_current_electricity_supplier_from_the_drop_down_option(String energySupplier)
 			throws Throwable {
 		EnergySupplierPlatformPage.selectFromOtherSupplier(energySupplier);
-	}
-
-	@Then("^I take a screenshot$")
-	public void i_take_a_screenshot() throws Throwable {
-	//	common.takeScreenshot();
 	}
 
 	@When("^I click on Next button at below right$")

@@ -6,11 +6,9 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(format = { "pretty", "html:target/cucumber/energycompare","json:target/cucumber-energycompare.json" }, 
+@CucumberOptions(format = { "pretty", "html:target/cucumber/energyEleccompare","json:target/cucumber-energyEleccompare.json" }, 
 		glue = { "com.test.steps" },
-		//dryRun=true,
-		//features = "classpath:stories/", 
-	    features = "src/test/resources/stories/compareElectricity.feature", 
+	    features = "src/test/resources/stories/", 
 		tags ={"@Electricity"}
         ,monochrome=true
 )

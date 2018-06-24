@@ -3,13 +3,9 @@ package com.test.driver.manager;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.test.configutils.LoadProperties;
@@ -23,7 +19,6 @@ public class DriverManager {
 		RemoteWebDriver driver = null;
 		String gico = new File("").getAbsolutePath() + File.separatorChar + "src"+ File.separatorChar +"test"+ File.separatorChar +"resources" + File.separatorChar + "geckodriver.exe";
 		System.setProperty("webdriver.gecko.driver", gico);		
-		//driver = new FirefoxDriver();
 		
 		if (defaultBrowser.equals("firefox") || defaultBrowser.equals("ff")) {
 			

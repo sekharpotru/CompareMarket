@@ -1,13 +1,6 @@
 package com.test.pages;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.ArrayList;
-import java.util.List;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,8 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.pagefactory.ElementLocatorFactory;
 import org.openqa.selenium.support.ui.Select;
-
-import com.test.configutils.LoadProperties;
 
 public class EnergyGasPlatform {
 
@@ -65,8 +56,8 @@ public class EnergyGasPlatform {
 	public void gasUsageKwh() {
 		gaskWh.click();
 	}
-	
-	public void gasPayMode(String mode){
+
+	public void gasPayMode(String mode) {
 		Select gPay = new Select(driver.findElement(By.xpath("//*[@id='gas-payment-method-dropdown-link']")));
 		gPay.selectByVisibleText(mode);
 	}

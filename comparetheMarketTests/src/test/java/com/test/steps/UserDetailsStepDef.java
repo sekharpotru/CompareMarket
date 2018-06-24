@@ -1,20 +1,11 @@
 package com.test.steps;
 
 import static org.junit.Assert.assertEquals;
-
-import org.openqa.selenium.JavascriptExecutor;
-
-import com.test.pages.EnergyElectricityPlatform;
-import com.test.pages.EnergyGasPlatform;
-import com.test.pages.EnergySupplierPlatform;
 import com.test.pages.UserDetailsPlatform;
-
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class UserDetailsStepDef  extends CommonUsefulMethods {
-	//CommonUsefulMethods common = new CommonUsefulMethods();
+public class UserDetailsStepDef extends Common {
 
 	public UserDetailsPlatform UserDetailsPlatformPage;
 
