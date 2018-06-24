@@ -11,7 +11,7 @@ public class Utilityfunc extends Common {
 
 	public void scrollDown() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,1000)");
+		js.executeScript("window.scrollBy(0,500)");
 	}
 
 	public void testShutdown() {

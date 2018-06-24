@@ -59,7 +59,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7129209721,
+  "duration": 11386897873,
   "status": "passed"
 });
 formatter.background({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_navigate_to_energy_comparethemarket_website()"
 });
 formatter.result({
-  "duration": 3028010151,
+  "duration": 4859650572,
   "status": "passed"
 });
 formatter.match({
@@ -111,7 +111,7 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 3004372850,
+  "duration": 3010454092,
   "status": "passed"
 });
 formatter.match({
@@ -124,7 +124,7 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Find_postcode_button_after_I_enter_postcode_as(String)"
 });
 formatter.result({
-  "duration": 1212874272,
+  "duration": 1159179725,
   "status": "passed"
 });
 formatter.match({
@@ -137,7 +137,7 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 5000184746,
+  "duration": 5000421838,
   "status": "passed"
 });
 formatter.match({
@@ -150,7 +150,7 @@ formatter.match({
   "location": "EnergySupplierStepDef.website_accepts_it_and_give_the_user_option_to_if_needed(String)"
 });
 formatter.result({
-  "duration": 28847668,
+  "duration": 70932431,
   "status": "passed"
 });
 formatter.scenario({
@@ -334,7 +334,7 @@ formatter.step({
 });
 formatter.step({
   "line": 60,
-  "name": "I wait for \"5\" seconds",
+  "name": "I wait for \"7\" seconds",
   "keyword": "And "
 });
 formatter.step({
@@ -437,6 +437,11 @@ formatter.step({
   "name": "I should be able to see tariff results",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 81,
+  "name": "I wait for \"2\" seconds",
+  "keyword": "And "
+});
 formatter.match({
   "arguments": [
     {
@@ -447,42 +452,42 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_as_i_have_my_bill_handy(String)"
 });
 formatter.result({
-  "duration": 308915819,
+  "duration": 376274944,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Gas_Electricity_as_i_want_to_compare_both()"
 });
 formatter.result({
-  "duration": 365520126,
+  "duration": 454258025,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_check_the_No_checkbox_as_my_gas_electricity_are_not_from_the_same_supplier()"
 });
 formatter.result({
-  "duration": 359477886,
+  "duration": 488620379,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_EDF_Energy_as_my_current_electricity_supplier()"
 });
 formatter.result({
-  "duration": 391460089,
+  "duration": 432959820,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_British_Gas_as_my_current_gas_supplier()"
 });
 formatter.result({
-  "duration": 428076864,
+  "duration": 447258181,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Next_button_at_below_right()"
 });
 formatter.result({
-  "duration": 342446815,
+  "duration": 579748694,
   "status": "passed"
 });
 formatter.match({
@@ -495,14 +500,14 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 2999476038,
+  "duration": 3001966525,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyElectricityStepDef.i_should_be_able_to_navigate_to_energy_electricity_page()"
 });
 formatter.result({
-  "duration": 35613499,
+  "duration": 66128507,
   "status": "passed"
 });
 formatter.match({
@@ -515,7 +520,7 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_select_as_my_current_electricity_plan_under_drop_down_option(String)"
 });
 formatter.result({
-  "duration": 372614395,
+  "duration": 494739597,
   "status": "passed"
 });
 formatter.match({
@@ -528,7 +533,7 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_check_the_Yes_checkbox_as_i_have_an_Economy_meter(int)"
 });
 formatter.result({
-  "duration": 310012496,
+  "duration": 378913741,
   "status": "passed"
 });
 formatter.match({
@@ -541,21 +546,21 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_select_as_my_electricity_method_of_pay_under_drop_down_option(String)"
 });
 formatter.result({
-  "duration": 171087157,
+  "duration": 368458623,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyElectricityStepDef.i_check_the_Yes_checkbox_to_indicate_that_electricity_as_my_main_source_of_heating()"
 });
 formatter.result({
-  "duration": 342086046,
+  "duration": 349881326,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyElectricityStepDef.i_check_the_kWh_checkbox_to_give_my_current_electricty_usgae()"
 });
 formatter.result({
-  "duration": 377136581,
+  "duration": 423299113,
   "status": "passed"
 });
 formatter.match({
@@ -568,7 +573,7 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_select_as_option_from_drop_down_to_enter_day_electricity_usage(String)"
 });
 formatter.result({
-  "duration": 156138591,
+  "duration": 193409165,
   "status": "passed"
 });
 formatter.match({
@@ -581,7 +586,7 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_enter_the_value_as_day_electricity_usage_in_the_given_textbox(String)"
 });
 formatter.result({
-  "duration": 123011472,
+  "duration": 100463663,
   "status": "passed"
 });
 formatter.match({
@@ -594,14 +599,14 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_enter_the_value_as_night_electricity_usage_in_the_given_textbox(String)"
 });
 formatter.result({
-  "duration": 103374448,
+  "duration": 181325198,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyElectricityStepDef.i_click_on_Next_button_at_below_right_to_navigate_to_Gas_energy_page()"
 });
 formatter.result({
-  "duration": 428131263,
+  "duration": 348557309,
   "status": "passed"
 });
 formatter.match({
@@ -614,14 +619,14 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 3000297134,
+  "duration": 3000541410,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyGasStepDef.i_should_be_able_to_navigate_to_energy_gas_page()"
 });
 formatter.result({
-  "duration": 41277010,
+  "duration": 59300067,
   "status": "passed"
 });
 formatter.match({
@@ -634,7 +639,7 @@ formatter.match({
   "location": "EnergyGasStepDef.i_select_as_my_current_gas_tariff_under_drop_down_option(String)"
 });
 formatter.result({
-  "duration": 384073817,
+  "duration": 454220049,
   "status": "passed"
 });
 formatter.match({
@@ -647,21 +652,21 @@ formatter.match({
   "location": "EnergyGasStepDef.i_select_as_my_gas_method_of_pay_under_drop_down_option(String)"
 });
 formatter.result({
-  "duration": 128726814,
+  "duration": 192869295,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyGasStepDef.i_check_the_No_checkbox_to_indicate_that_gas_is_not_my_main_source_of_heating()"
 });
 formatter.result({
-  "duration": 377754969,
+  "duration": 338400864,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyGasStepDef.i_check_the_kWh_checkbox_to_give_my_current_gas_usgae()"
 });
 formatter.result({
-  "duration": 415954922,
+  "duration": 387900637,
   "status": "passed"
 });
 formatter.match({
@@ -674,7 +679,7 @@ formatter.match({
   "location": "EnergyGasStepDef.i_select_as_option_from_drop_down_to_enter_current_gas_usage(String)"
 });
 formatter.result({
-  "duration": 144195236,
+  "duration": 160684897,
   "status": "passed"
 });
 formatter.match({
@@ -687,14 +692,14 @@ formatter.match({
   "location": "EnergyGasStepDef.i_enter_the_value_as_current_gas_usage_in_the_given_textbox(String)"
 });
 formatter.result({
-  "duration": 144211145,
+  "duration": 109546525,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyGasStepDef.i_click_on_the_Next_button_at_below_right_to_navigate_to_preferences_and_contact_details_page()"
 });
 formatter.result({
-  "duration": 663933614,
+  "duration": 759922304,
   "status": "passed"
 });
 formatter.match({
@@ -707,28 +712,28 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 3000546029,
+  "duration": 3000738473,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_should_be_able_to_navigate_to_preferences_and_contact_details_page()"
 });
 formatter.result({
-  "duration": 35366658,
+  "duration": 65919640,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_click_on_All_tariffs_option_to_choose_the_tariff_i_am_interested_in()"
 });
 formatter.result({
-  "duration": 345041991,
+  "duration": 432103315,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_click_on_All_payment_types_option_to_choose_payment_type_i_am_interested_in()"
 });
 formatter.result({
-  "duration": 393418402,
+  "duration": 385727298,
   "status": "passed"
 });
 formatter.match({
@@ -741,41 +746,41 @@ formatter.match({
   "location": "UserDetailsStepDef.i_enter_my_email_address_as_in_the_given_textbox(String)"
 });
 formatter.result({
-  "duration": 275604981,
+  "duration": 336143877,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_check_the_given_check_box_to_confirm_that_i_have_read_and_undrestood_terms_and_conditions()"
 });
 formatter.result({
-  "duration": 472082479,
+  "duration": 454280091,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_click_on_Go_to_prices_button_at_below_right()"
 });
 formatter.result({
-  "duration": 405354572,
+  "duration": 426266861,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "5",
+      "val": "7",
       "offset": 12
     }
   ],
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 5000027712,
+  "duration": 7000168325,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_should_be_able_to_navigate_to_results_page()"
 });
 formatter.result({
-  "duration": 46011655,
+  "duration": 67152824,
   "status": "passed"
 });
 formatter.match({
@@ -788,7 +793,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_postcode_i_have_entered_displayed_under_supplier_details_section(String)"
 });
 formatter.result({
-  "duration": 29938700,
+  "duration": 42248982,
   "status": "passed"
 });
 formatter.match({
@@ -801,7 +806,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_it_is_showing_as_my_electricity_supplier_under_supplier_details_section(String)"
 });
 formatter.result({
-  "duration": 27967556,
+  "duration": 42937163,
   "status": "passed"
 });
 formatter.match({
@@ -814,7 +819,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_it_is_showing_as_my_gas_supplier_under_supplier_details_section(String)"
 });
 formatter.result({
-  "duration": 29142751,
+  "duration": 41150766,
   "status": "passed"
 });
 formatter.match({
@@ -827,7 +832,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_it_is_showing_Electricity_as_under_energy_usage_section(String)"
 });
 formatter.result({
-  "duration": 26283797,
+  "duration": 40834644,
   "status": "passed"
 });
 formatter.match({
@@ -840,7 +845,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_it_is_showing_Gas_as_under_energy_usage_section(String)"
 });
 formatter.result({
-  "duration": 30202477,
+  "duration": 45231613,
   "status": "passed"
 });
 formatter.match({
@@ -853,42 +858,42 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_filter_results_heading_as_on_leftside(String)"
 });
 formatter.result({
-  "duration": 22178316,
+  "duration": 35062852,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Fixed_tariff_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 50224390,
+  "duration": 79926511,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Variable_tariff_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 41047103,
+  "duration": 79929591,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Monthly_Payment_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 67853321,
+  "duration": 81523030,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Quarterly_Payment_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 49505931,
+  "duration": 92168027,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Pay_on_receipt_of_bill_Payment_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 50561039,
+  "duration": 80366312,
   "status": "passed"
 });
 formatter.match({
@@ -901,7 +906,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_filter_recommendation_subheading_as(String)"
 });
 formatter.result({
-  "duration": 30384658,
+  "duration": 35103907,
   "status": "passed"
 });
 formatter.match({
@@ -914,7 +919,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_under_recomendation_subheading(String)"
 });
 formatter.result({
-  "duration": 24007308,
+  "duration": 35633001,
   "status": "passed"
 });
 formatter.match({
@@ -927,7 +932,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Supplier_heading(String)"
 });
 formatter.result({
-  "duration": 32551838,
+  "duration": 35694070,
   "status": "passed"
 });
 formatter.match({
@@ -940,7 +945,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Annual_saving_heading(String)"
 });
 formatter.result({
-  "duration": 26522940,
+  "duration": 44448492,
   "status": "passed"
 });
 formatter.match({
@@ -953,7 +958,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Estimated_bill_heading(String)"
 });
 formatter.result({
-  "duration": 25426265,
+  "duration": 45101778,
   "status": "passed"
 });
 formatter.match({
@@ -966,7 +971,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Tariff_type_heading(String)"
 });
 formatter.result({
-  "duration": 23099996,
+  "duration": 36551602,
   "status": "passed"
 });
 formatter.match({
@@ -979,22 +984,35 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_See_heading_available_next_to_Payment_type_heading(String)"
 });
 formatter.result({
-  "duration": 17803928,
+  "duration": 34493730,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_should_be_able_to_see_tariff_results()"
 });
 formatter.result({
-  "duration": 13325362,
+  "duration": 43184005,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 12
+    }
+  ],
+  "location": "CommonStepDef.i_wait_for_seconds(String)"
+});
+formatter.result({
+  "duration": 2000562964,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1278859600,
+  "duration": 2782958666,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5982547091,
+  "duration": 8417143971,
   "status": "passed"
 });
 formatter.background({
@@ -1033,7 +1051,7 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_navigate_to_energy_comparethemarket_website()"
 });
 formatter.result({
-  "duration": 2765842406,
+  "duration": 5977772931,
   "status": "passed"
 });
 formatter.match({
@@ -1046,7 +1064,7 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 3000115980,
+  "duration": 3001421523,
   "status": "passed"
 });
 formatter.match({
@@ -1059,7 +1077,7 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Find_postcode_button_after_I_enter_postcode_as(String)"
 });
 formatter.result({
-  "duration": 1161587076,
+  "duration": 1231560364,
   "status": "passed"
 });
 formatter.match({
@@ -1072,7 +1090,7 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 5000341781,
+  "duration": 4999958432,
   "status": "passed"
 });
 formatter.match({
@@ -1085,11 +1103,11 @@ formatter.match({
   "location": "EnergySupplierStepDef.website_accepts_it_and_give_the_user_option_to_if_needed(String)"
 });
 formatter.result({
-  "duration": 23713766,
+  "duration": 56725931,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 83,
+  "line": 84,
   "name": "User Gas Comparison journey",
   "description": "",
   "id": "web-::-user-energy-comparison-journey;user-gas-comparison-journey",
@@ -1097,230 +1115,235 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 82,
+      "line": 83,
       "name": "@Gas"
     }
   ]
 });
 formatter.step({
-  "line": 84,
+  "line": 85,
   "name": "I click on \"no-bill-label\" as i have my bill handy",
   "keyword": "And "
 });
 formatter.step({
-  "line": 85,
+  "line": 86,
   "name": "I click on Gas only label as i want to compare gas only",
   "keyword": "And "
 });
 formatter.step({
-  "line": 86,
+  "line": 87,
   "name": "I check the \"I don\u0027t know\" checkbox as i am not aware who is my current gas supplier is",
   "keyword": "And "
 });
 formatter.step({
-  "line": 87,
+  "line": 88,
   "name": "I click on Next button at below right",
   "keyword": "When "
 });
 formatter.step({
-  "line": 88,
+  "line": 89,
   "name": "I wait for \"3\" seconds",
   "keyword": "And "
 });
 formatter.step({
-  "line": 89,
+  "line": 90,
   "name": "I should be able to navigate to \"Your Energy\" page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 90,
+  "line": 91,
   "name": "I check the No checkbox as i do not use pre-payment meter",
   "keyword": "And "
 });
 formatter.step({
-  "line": 91,
+  "line": 92,
   "name": "I check the \"I don\u0027t know\" checkbox as i do not know how much i spend on gas",
   "keyword": "And "
 });
 formatter.step({
-  "line": 92,
+  "line": 93,
   "name": "I click on Next button at below right to navigate to \"Your energy usage\" page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 93,
+  "line": 94,
   "name": "I wait for \"3\" seconds",
   "keyword": "And "
 });
 formatter.step({
-  "line": 94,
+  "line": 95,
   "name": "I should be able to navigate to \"Your energy usage\" web page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 95,
+  "line": 96,
   "name": "I select \"1-2 Bedrooms\" as size of my home",
   "keyword": "And "
 });
 formatter.step({
-  "line": 96,
+  "line": 97,
   "name": "I select \"1-2 Occupants\" as no of people live at house",
   "keyword": "And "
 });
 formatter.step({
-  "line": 97,
+  "line": 98,
   "name": "I select \"Other heating\" as my main source of energy for heating",
   "keyword": "And "
 });
 formatter.step({
-  "line": 98,
+  "line": 99,
   "name": "I select \"Tropical\" as temperature i keep at home",
   "keyword": "And "
 });
 formatter.step({
-  "line": 99,
+  "line": 100,
   "name": "I select \"Well wrapped\" to describe insulation at my home",
   "keyword": "And "
 });
 formatter.step({
-  "line": 100,
+  "line": 101,
   "name": "I select \"Electricity\" as my main source of energy for cooking",
   "keyword": "And "
 });
 formatter.step({
-  "line": 101,
+  "line": 102,
   "name": "I select \"Evening and weekends\" to answer when someone stay at home",
   "keyword": "And "
 });
 formatter.step({
-  "line": 102,
+  "line": 103,
   "name": "I click on the Next button at below right to navigate to personal details page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 103,
+  "line": 104,
   "name": "I wait for \"3\" seconds",
   "keyword": "And "
 });
 formatter.step({
-  "line": 104,
+  "line": 105,
   "name": "I should be able to navigate to preferences and contact details page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 105,
+  "line": 106,
   "name": "I click on Variable tariff label to choose the tariff i am interested in",
   "keyword": "And "
 });
 formatter.step({
-  "line": 106,
+  "line": 107,
   "name": "I click on Monthly direct debit label to choose payment type i am interested in",
   "keyword": "And "
 });
 formatter.step({
-  "line": 107,
+  "line": 108,
   "name": "I enter my email address as \"shushi.muvva@hotmail.com\" in the given textbox",
   "keyword": "And "
 });
 formatter.step({
-  "line": 108,
+  "line": 109,
   "name": "I check the given check box to confirm that i have read and undrestood terms and conditions",
   "keyword": "And "
 });
 formatter.step({
-  "line": 109,
+  "line": 110,
   "name": "I click on Go to prices button at below right",
   "keyword": "When "
 });
 formatter.step({
-  "line": 110,
-  "name": "I wait for \"10\" seconds",
+  "line": 111,
+  "name": "I wait for \"7\" seconds",
   "keyword": "And "
 });
 formatter.step({
-  "line": 111,
+  "line": 112,
   "name": "I should be able to navigate to results page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 112,
+  "line": 113,
   "name": "I check postcode \"PE2 6YS\" i have entered displayed under supplier details section",
   "keyword": "And "
 });
 formatter.step({
-  "line": 113,
+  "line": 114,
   "name": "I check if it is showing \"British Gas\" as my default gas supplier under supplier details section",
   "keyword": "And "
 });
 formatter.step({
-  "line": 114,
+  "line": 115,
   "name": "I see filter results heading as \"Personalise your results\" on leftside",
   "keyword": "And "
 });
 formatter.step({
-  "line": 115,
+  "line": 116,
   "name": "I check if Fixed tariff type checkbox is unchecked under Personalise your results section",
   "keyword": "And "
 });
 formatter.step({
-  "line": 116,
+  "line": 117,
   "name": "I check if Variable tariff type checkbox is checked under Personalise your results section",
   "keyword": "And "
 });
 formatter.step({
-  "line": 117,
+  "line": 118,
   "name": "I check if Monthly Payment type checkbox is checked under Personalise your results section",
   "keyword": "And "
 });
 formatter.step({
-  "line": 118,
+  "line": 119,
   "name": "I check if Quarterly Payment type checkbox is unchecked under Personalise your results section",
   "keyword": "And "
 });
 formatter.step({
-  "line": 119,
+  "line": 120,
   "name": "I check if Pay on receipt of bill Payment type checkbox is unchecked under Personalise your results section",
   "keyword": "And "
 });
 formatter.step({
-  "line": 120,
+  "line": 121,
   "name": "I see filter recommendation subheading as \"Recommended tariffs for you\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 121,
+  "line": 122,
   "name": "I see \"Supplier\" heading available under recomendation subheading",
   "keyword": "And "
 });
 formatter.step({
-  "line": 122,
+  "line": 123,
   "name": "I see \"Annual saving\" heading available next to Supplier heading",
   "keyword": "And "
 });
 formatter.step({
-  "line": 123,
+  "line": 124,
   "name": "I see \"Estimated bill\" heading available next to Annual saving heading",
   "keyword": "And "
 });
 formatter.step({
-  "line": 124,
+  "line": 125,
   "name": "I see \"Tariff type\" heading available next to Estimated bill heading",
   "keyword": "And "
 });
 formatter.step({
-  "line": 125,
+  "line": 126,
   "name": "I see \"Payment type\" heading available next to Tariff type heading",
   "keyword": "And "
 });
 formatter.step({
-  "line": 126,
+  "line": 127,
   "name": "I See \"Supplier rating\" heading available next to Payment type heading",
   "keyword": "And "
 });
 formatter.step({
-  "line": 127,
+  "line": 128,
   "name": "I should be able to see tariff results",
   "keyword": "Then "
+});
+formatter.step({
+  "line": 129,
+  "name": "I wait for \"2\" seconds",
+  "keyword": "And "
 });
 formatter.match({
   "arguments": [
@@ -1332,14 +1355,14 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_as_i_have_my_bill_handy(String)"
 });
 formatter.result({
-  "duration": 345175933,
+  "duration": 485696764,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Gas_only_label_as_i_want_to_compare_gas_only()"
 });
 formatter.result({
-  "duration": 329303121,
+  "duration": 465096492,
   "status": "passed"
 });
 formatter.match({
@@ -1352,14 +1375,14 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_check_the_checkbox_as_i_am_not_aware_who_is_my_current_gas_supplier_is(String)"
 });
 formatter.result({
-  "duration": 305535984,
+  "duration": 405511093,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Next_button_at_below_right()"
 });
 formatter.result({
-  "duration": 538510172,
+  "duration": 537872284,
   "status": "passed"
 });
 formatter.match({
@@ -1372,7 +1395,7 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 2999310792,
+  "duration": 3000035410,
   "status": "passed"
 });
 formatter.match({
@@ -1385,14 +1408,14 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_should_be_able_to_navigate_to_page(String)"
 });
 formatter.result({
-  "duration": 20473516,
+  "duration": 58511302,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyElectricityStepDef.i_check_the_No_checkbox_as_i_don_t_use_pre_payment_meter()"
 });
 formatter.result({
-  "duration": 265572727,
+  "duration": 357208581,
   "status": "passed"
 });
 formatter.match({
@@ -1405,7 +1428,7 @@ formatter.match({
   "location": "EnergyGasStepDef.i_check_the_checkbox_as_i_do_not_know_how_much_i_spend_on_gas(String)"
 });
 formatter.result({
-  "duration": 308826012,
+  "duration": 367623158,
   "status": "passed"
 });
 formatter.match({
@@ -1418,7 +1441,7 @@ formatter.match({
   "location": "EnergyGasStepDef.i_click_on_Next_button_at_below_right_to_navigate_to_page(String)"
 });
 formatter.result({
-  "duration": 600210406,
+  "duration": 667003487,
   "status": "passed"
 });
 formatter.match({
@@ -1431,7 +1454,7 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 2999811148,
+  "duration": 3000773883,
   "status": "passed"
 });
 formatter.match({
@@ -1444,7 +1467,7 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_should_be_able_to_navigate_to_web_page(String)"
 });
 formatter.result({
-  "duration": 25788059,
+  "duration": 36787667,
   "status": "passed"
 });
 formatter.match({
@@ -1457,7 +1480,7 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_select_as_size_of_my_home(String)"
 });
 formatter.result({
-  "duration": 274356915,
+  "duration": 302453794,
   "status": "passed"
 });
 formatter.match({
@@ -1470,7 +1493,7 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_select_as_no_of_people_live_at_house(String)"
 });
 formatter.result({
-  "duration": 280605969,
+  "duration": 313027971,
   "status": "passed"
 });
 formatter.match({
@@ -1483,7 +1506,7 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_select_as_my_main_source_of_energy_for_heating(String)"
 });
 formatter.result({
-  "duration": 266273225,
+  "duration": 299323366,
   "status": "passed"
 });
 formatter.match({
@@ -1496,7 +1519,7 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_select_as_temperature_i_keep_at_home(String)"
 });
 formatter.result({
-  "duration": 269463183,
+  "duration": 301956518,
   "status": "passed"
 });
 formatter.match({
@@ -1509,7 +1532,7 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_select_to_describe_insulation_at_my_home(String)"
 });
 formatter.result({
-  "duration": 289674461,
+  "duration": 280308322,
   "status": "passed"
 });
 formatter.match({
@@ -1522,7 +1545,7 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_select_as_my_main_source_of_energy_for_cooking(String)"
 });
 formatter.result({
-  "duration": 259892283,
+  "duration": 322397190,
   "status": "passed"
 });
 formatter.match({
@@ -1535,14 +1558,14 @@ formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_select_to_answer_when_someone_stay_at_home(String)"
 });
 formatter.result({
-  "duration": 259601820,
+  "duration": 315535393,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyUsageQuestionaryStepDef.i_click_on_the_Next_button_at_below_right_to_navigate_to_personal_details_page()"
 });
 formatter.result({
-  "duration": 453307606,
+  "duration": 445083816,
   "status": "passed"
 });
 formatter.match({
@@ -1555,28 +1578,28 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 3000195524,
+  "duration": 2999754185,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_should_be_able_to_navigate_to_preferences_and_contact_details_page()"
 });
 formatter.result({
-  "duration": 45991127,
+  "duration": 85427342,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_click_on_Variable_tariff_label_to_choose_the_tariff_i_am_interested_in()"
 });
 formatter.result({
-  "duration": 280755306,
+  "duration": 305635028,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_click_on_Monthly_direct_debit_label_to_choose_payment_type_i_am_interested_in()"
 });
 formatter.result({
-  "duration": 337480723,
+  "duration": 338582019,
   "status": "passed"
 });
 formatter.match({
@@ -1589,41 +1612,41 @@ formatter.match({
   "location": "UserDetailsStepDef.i_enter_my_email_address_as_in_the_given_textbox(String)"
 });
 formatter.result({
-  "duration": 210234449,
+  "duration": 218201646,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_check_the_given_check_box_to_confirm_that_i_have_read_and_undrestood_terms_and_conditions()"
 });
 formatter.result({
-  "duration": 352705383,
+  "duration": 358708621,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_click_on_Go_to_prices_button_at_below_right()"
 });
 formatter.result({
-  "duration": 356295112,
+  "duration": 374792865,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "10",
+      "val": "7",
       "offset": 12
     }
   ],
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 9999714669,
+  "duration": 7001090005,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_should_be_able_to_navigate_to_results_page()"
 });
 formatter.result({
-  "duration": 34101657,
+  "duration": 50458916,
   "status": "passed"
 });
 formatter.match({
@@ -1636,7 +1659,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_postcode_i_have_entered_displayed_under_supplier_details_section(String)"
 });
 formatter.result({
-  "duration": 25823470,
+  "duration": 39785694,
   "status": "passed"
 });
 formatter.match({
@@ -1649,7 +1672,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_it_is_showing_as_my_default_gas_supplier_under_supplier_details_section(String)"
 });
 formatter.result({
-  "duration": 26581957,
+  "duration": 39089815,
   "status": "passed"
 });
 formatter.match({
@@ -1662,42 +1685,42 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_filter_results_heading_as_on_leftside(String)"
 });
 formatter.result({
-  "duration": 26632250,
+  "duration": 35135725,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Fixed_tariff_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 44275549,
+  "duration": 81868917,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Variable_tariff_type_checkbox_is_checked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 51036249,
+  "duration": 78517306,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Monthly_Payment_type_checkbox_is_checked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 42053971,
+  "duration": 81842232,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Quarterly_Payment_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 45434321,
+  "duration": 76782740,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Pay_on_receipt_of_bill_Payment_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 44936019,
+  "duration": 73082676,
   "status": "passed"
 });
 formatter.match({
@@ -1710,7 +1733,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_filter_recommendation_subheading_as(String)"
 });
 formatter.result({
-  "duration": 22548836,
+  "duration": 33075287,
   "status": "passed"
 });
 formatter.match({
@@ -1723,7 +1746,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_under_recomendation_subheading(String)"
 });
 formatter.result({
-  "duration": 21556850,
+  "duration": 39394647,
   "status": "passed"
 });
 formatter.match({
@@ -1736,7 +1759,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Supplier_heading(String)"
 });
 formatter.result({
-  "duration": 19309612,
+  "duration": 33171765,
   "status": "passed"
 });
 formatter.match({
@@ -1749,7 +1772,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Annual_saving_heading(String)"
 });
 formatter.result({
-  "duration": 24194620,
+  "duration": 33128658,
   "status": "passed"
 });
 formatter.match({
@@ -1762,7 +1785,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Estimated_bill_heading(String)"
 });
 formatter.result({
-  "duration": 19990608,
+  "duration": 39589658,
   "status": "passed"
 });
 formatter.match({
@@ -1775,7 +1798,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Tariff_type_heading(String)"
 });
 formatter.result({
-  "duration": 17719252,
+  "duration": 32223913,
   "status": "passed"
 });
 formatter.match({
@@ -1788,22 +1811,35 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_See_heading_available_next_to_Payment_type_heading(String)"
 });
 formatter.result({
-  "duration": 19114089,
+  "duration": 34742112,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_should_be_able_to_see_tariff_results()"
 });
 formatter.result({
-  "duration": 8551715,
+  "duration": 39026180,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 12
+    }
+  ],
+  "location": "CommonStepDef.i_wait_for_seconds(String)"
+});
+formatter.result({
+  "duration": 2000347940,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1284871049,
+  "duration": 2869761344,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5894616432,
+  "duration": 8468916641,
   "status": "passed"
 });
 formatter.background({
@@ -1842,7 +1878,7 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_navigate_to_energy_comparethemarket_website()"
 });
 formatter.result({
-  "duration": 2518292736,
+  "duration": 6182042630,
   "status": "passed"
 });
 formatter.match({
@@ -1855,7 +1891,7 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 3000004105,
+  "duration": 3000684075,
   "status": "passed"
 });
 formatter.match({
@@ -1868,7 +1904,7 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Find_postcode_button_after_I_enter_postcode_as(String)"
 });
 formatter.result({
-  "duration": 1029139158,
+  "duration": 1555684935,
   "status": "passed"
 });
 formatter.match({
@@ -1881,7 +1917,7 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 4999824490,
+  "duration": 5002343716,
   "status": "passed"
 });
 formatter.match({
@@ -1894,192 +1930,197 @@ formatter.match({
   "location": "EnergySupplierStepDef.website_accepts_it_and_give_the_user_option_to_if_needed(String)"
 });
 formatter.result({
-  "duration": 26070824,
+  "duration": 60279737,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 130,
-  "name": "User Gas Comparison journey",
+  "line": 132,
+  "name": "User Electricity Comparison journey",
   "description": "",
-  "id": "web-::-user-energy-comparison-journey;user-gas-comparison-journey",
+  "id": "web-::-user-energy-comparison-journey;user-electricity-comparison-journey",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 129,
+      "line": 131,
       "name": "@Electricity"
     }
   ]
 });
 formatter.step({
-  "line": 131,
+  "line": 133,
   "name": "I click on \"no-bill-label\" as i have my bill handy",
   "keyword": "And "
 });
 formatter.step({
-  "line": 132,
+  "line": 134,
   "name": "I click on Electricity only label as i want to compare electricity only",
   "keyword": "And "
 });
 formatter.step({
-  "line": 133,
+  "line": 135,
   "name": "I select \"Ecotricity\" as my current electricity supplier from the drop down option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 134,
+  "line": 136,
   "name": "I click on Next button at below right",
   "keyword": "When "
 });
 formatter.step({
-  "line": 135,
-  "name": "I wait for \"3\" seconds",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 136,
-  "name": "I should be able to navigate to energy page",
-  "keyword": "Then "
-});
-formatter.step({
   "line": 137,
-  "name": "I check the Yes checkbox as i use pre-payment meter",
+  "name": "I wait for \"3\" seconds",
   "keyword": "And "
 });
 formatter.step({
   "line": 138,
-  "name": "I check the No checkbox as i do not have an Economy 7 meter",
-  "keyword": "And "
+  "name": "I should be able to navigate to energy page",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 139,
-  "name": "I select electricity current spend period as \"Monthly\" from drop down option",
+  "name": "I check the Yes checkbox as i use pre-payment meter",
   "keyword": "And "
 });
 formatter.step({
   "line": 140,
-  "name": "I enter the value \"40\" as current electricity spend in the given textbox",
+  "name": "I check the No checkbox as i do not have an Economy 7 meter",
   "keyword": "And "
 });
 formatter.step({
   "line": 141,
-  "name": "I click on the Next button at below right to navigate to preferences and contact details page",
-  "keyword": "When "
+  "name": "I select electricity current spend period as \"Monthly\" from drop down option",
+  "keyword": "And "
 });
 formatter.step({
   "line": 142,
-  "name": "I wait for \"3\" seconds",
+  "name": "I enter the value \"40\" as current electricity spend in the given textbox",
   "keyword": "And "
 });
 formatter.step({
   "line": 143,
-  "name": "I should be able to navigate to preferences and contact details page",
-  "keyword": "Then "
+  "name": "I click on the Next button at below right to navigate to preferences and contact details page",
+  "keyword": "When "
 });
 formatter.step({
   "line": 144,
-  "name": "I click on Fixed tariff label to choose the tariff i am interested in",
+  "name": "I wait for \"3\" seconds",
   "keyword": "And "
 });
 formatter.step({
   "line": 145,
-  "name": "I enter my email address as \"shiva.sup@gmail.com\" in the given textbox",
-  "keyword": "And "
+  "name": "I should be able to navigate to preferences and contact details page",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 146,
-  "name": "I check the given check box to confirm that i have read and undrestood terms and conditions",
+  "name": "I click on Fixed tariff label to choose the tariff i am interested in",
   "keyword": "And "
 });
 formatter.step({
   "line": 147,
-  "name": "I click on Go to prices button at below right",
-  "keyword": "When "
+  "name": "I enter my email address as \"shiva.sup@gmail.com\" in the given textbox",
+  "keyword": "And "
 });
 formatter.step({
   "line": 148,
-  "name": "I wait for \"10\" seconds",
+  "name": "I check the given check box to confirm that i have read and undrestood terms and conditions",
   "keyword": "And "
 });
 formatter.step({
   "line": 149,
-  "name": "I should be able to navigate to results page",
-  "keyword": "Then "
+  "name": "I click on Go to prices button at below right",
+  "keyword": "When "
 });
 formatter.step({
   "line": 150,
-  "name": "I check postcode \"PE2 6YS\" i have entered displayed under supplier details section",
+  "name": "I wait for \"7\" seconds",
   "keyword": "And "
 });
 formatter.step({
   "line": 151,
-  "name": "I check if it is showing \"Ecotricity\" as my electricity supplier under supplier details section",
-  "keyword": "And "
+  "name": "I should be able to navigate to results page",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 152,
-  "name": "I check if it is showing Projection as \"40.00 monthly\" under energy usage section",
+  "name": "I check postcode \"PE2 6YS\" i have entered displayed under supplier details section",
   "keyword": "And "
 });
 formatter.step({
   "line": 153,
-  "name": "I check if it is showing Projection as \"480 annually\" under energy usage section",
+  "name": "I check if it is showing \"Ecotricity\" as my electricity supplier under supplier details section",
   "keyword": "And "
 });
 formatter.step({
   "line": 154,
-  "name": "I see filter results heading as \"Personalise your results\" on leftside",
+  "name": "I check if it is showing Projection as \"40.00 monthly\" under energy usage section",
   "keyword": "And "
 });
 formatter.step({
   "line": 155,
-  "name": "I check if Fixed tariff type checkbox is checked under Personalise your results section",
+  "name": "I check if it is showing Projection as \"480 annually\" under energy usage section",
   "keyword": "And "
 });
 formatter.step({
   "line": 156,
-  "name": "I check if Variable tariff type checkbox is unchecked under Personalise your results section",
+  "name": "I see filter results heading as \"Personalise your results\" on leftside",
   "keyword": "And "
 });
 formatter.step({
   "line": 157,
-  "name": "I see filter recommendation subheading as \"Recommended tariffs for you\"",
+  "name": "I check if Fixed tariff type checkbox is checked under Personalise your results section",
   "keyword": "And "
 });
 formatter.step({
   "line": 158,
-  "name": "I see \"Supplier\" heading available under recomendation subheading",
+  "name": "I check if Variable tariff type checkbox is unchecked under Personalise your results section",
   "keyword": "And "
 });
 formatter.step({
   "line": 159,
-  "name": "I see \"Annual saving\" heading available next to Supplier heading",
+  "name": "I see filter recommendation subheading as \"Recommended tariffs for you\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 160,
-  "name": "I see \"Estimated bill\" heading available next to Annual saving heading",
+  "name": "I see \"Supplier\" heading available under recomendation subheading",
   "keyword": "And "
 });
 formatter.step({
   "line": 161,
-  "name": "I see \"Tariff type\" heading available next to Estimated bill heading",
+  "name": "I see \"Annual saving\" heading available next to Supplier heading",
   "keyword": "And "
 });
 formatter.step({
   "line": 162,
-  "name": "I see \"Payment type\" heading available next to Tariff type heading",
+  "name": "I see \"Estimated bill\" heading available next to Annual saving heading",
   "keyword": "And "
 });
 formatter.step({
   "line": 163,
-  "name": "I See \"Supplier rating\" heading available next to Payment type heading",
+  "name": "I see \"Tariff type\" heading available next to Estimated bill heading",
   "keyword": "And "
 });
 formatter.step({
   "line": 164,
+  "name": "I see \"Payment type\" heading available next to Tariff type heading",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 165,
+  "name": "I See \"Supplier rating\" heading available next to Payment type heading",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 166,
   "name": "I should be able to see tariff results",
   "keyword": "Then "
+});
+formatter.step({
+  "line": 167,
+  "name": "I wait for \"2\" seconds",
+  "keyword": "And "
 });
 formatter.match({
   "arguments": [
@@ -2091,14 +2132,14 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_as_i_have_my_bill_handy(String)"
 });
 formatter.result({
-  "duration": 325005196,
+  "duration": 760938411,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Electricity_only_label_as_i_want_to_compare_electricity_only()"
 });
 formatter.result({
-  "duration": 338769331,
+  "duration": 671610862,
   "status": "passed"
 });
 formatter.match({
@@ -2111,14 +2152,14 @@ formatter.match({
   "location": "EnergySupplierStepDef.i_select_as_my_current_electricity_supplier_from_the_drop_down_option(String)"
 });
 formatter.result({
-  "duration": 431437713,
+  "duration": 922818001,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergySupplierStepDef.i_click_on_Next_button_at_below_right()"
 });
 formatter.result({
-  "duration": 386509392,
+  "duration": 506045576,
   "status": "passed"
 });
 formatter.match({
@@ -2131,21 +2172,21 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 3000347426,
+  "duration": 3000961709,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyElectricityStepDef.i_should_be_able_to_navigate_to_energy_page()"
 });
 formatter.result({
-  "duration": 25280007,
+  "duration": 61578096,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyGasStepDef.i_check_the_Yes_checkbox_as_i_use_pre_payment_meter()"
 });
 formatter.result({
-  "duration": 291994057,
+  "duration": 348990950,
   "status": "passed"
 });
 formatter.match({
@@ -2158,7 +2199,7 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_check_the_No_checkbox_as_i_do_not_have_an_Economy_meter(int)"
 });
 formatter.result({
-  "duration": 290229728,
+  "duration": 395447536,
   "status": "passed"
 });
 formatter.match({
@@ -2171,7 +2212,7 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_select_electricity_current_spend_period_as_from_drop_down_option(String)"
 });
 formatter.result({
-  "duration": 180935177,
+  "duration": 191247117,
   "status": "passed"
 });
 formatter.match({
@@ -2184,14 +2225,14 @@ formatter.match({
   "location": "EnergyElectricityStepDef.i_enter_the_value_as_current_electricity_spend_in_the_given_textbox(String)"
 });
 formatter.result({
-  "duration": 79094126,
+  "duration": 93797903,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyGasStepDef.i_click_on_the_Next_button_at_below_right_to_navigate_to_preferences_and_contact_details_page()"
 });
 formatter.result({
-  "duration": 736896719,
+  "duration": 590715970,
   "status": "passed"
 });
 formatter.match({
@@ -2204,21 +2245,21 @@ formatter.match({
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 3000653797,
+  "duration": 2999565332,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_should_be_able_to_navigate_to_preferences_and_contact_details_page()"
 });
 formatter.result({
-  "duration": 32853590,
+  "duration": 47416755,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_click_on_Fixed_tariff_label_to_choose_the_tariff_i_am_interested_in()"
 });
 formatter.result({
-  "duration": 295554022,
+  "duration": 392897519,
   "status": "passed"
 });
 formatter.match({
@@ -2231,41 +2272,41 @@ formatter.match({
   "location": "UserDetailsStepDef.i_enter_my_email_address_as_in_the_given_textbox(String)"
 });
 formatter.result({
-  "duration": 145861548,
+  "duration": 264847084,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_check_the_given_check_box_to_confirm_that_i_have_read_and_undrestood_terms_and_conditions()"
 });
 formatter.result({
-  "duration": 344868022,
+  "duration": 393039158,
   "status": "passed"
 });
 formatter.match({
   "location": "UserDetailsStepDef.i_click_on_Go_to_prices_button_at_below_right()"
 });
 formatter.result({
-  "duration": 362134644,
+  "duration": 450161269,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "10",
+      "val": "7",
       "offset": 12
     }
   ],
   "location": "CommonStepDef.i_wait_for_seconds(String)"
 });
 formatter.result({
-  "duration": 10000885244,
+  "duration": 7000235038,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_should_be_able_to_navigate_to_results_page()"
 });
 formatter.result({
-  "duration": 38132725,
+  "duration": 39320235,
   "status": "passed"
 });
 formatter.match({
@@ -2278,7 +2319,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_postcode_i_have_entered_displayed_under_supplier_details_section(String)"
 });
 formatter.result({
-  "duration": 29893540,
+  "duration": 34135527,
   "status": "passed"
 });
 formatter.match({
@@ -2291,7 +2332,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_it_is_showing_as_my_electricity_supplier_under_supplier_details_section(String)"
 });
 formatter.result({
-  "duration": 25599721,
+  "duration": 44066684,
   "status": "passed"
 });
 formatter.match({
@@ -2304,7 +2345,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_it_is_showing_Projection_as_under_energy_usage_section(String)"
 });
 formatter.result({
-  "duration": 20024992,
+  "duration": 33518165,
   "status": "passed"
 });
 formatter.match({
@@ -2317,7 +2358,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_it_is_showing_Projection_as_under_energy_usage_section(String)"
 });
 formatter.result({
-  "duration": 19417381,
+  "duration": 33491993,
   "status": "passed"
 });
 formatter.match({
@@ -2330,21 +2371,21 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_filter_results_heading_as_on_leftside(String)"
 });
 formatter.result({
-  "duration": 26502413,
+  "duration": 42956665,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Fixed_tariff_type_checkbox_is_checked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 66572925,
+  "duration": 76746304,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_check_if_Variable_tariff_type_checkbox_is_unchecked_under_Personalise_your_results_section()"
 });
 formatter.result({
-  "duration": 46417584,
+  "duration": 72237974,
   "status": "passed"
 });
 formatter.match({
@@ -2357,7 +2398,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_filter_recommendation_subheading_as(String)"
 });
 formatter.result({
-  "duration": 25263071,
+  "duration": 35451846,
   "status": "passed"
 });
 formatter.match({
@@ -2370,7 +2411,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_under_recomendation_subheading(String)"
 });
 formatter.result({
-  "duration": 19679106,
+  "duration": 32206978,
   "status": "passed"
 });
 formatter.match({
@@ -2383,7 +2424,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Supplier_heading(String)"
 });
 formatter.result({
-  "duration": 26049784,
+  "duration": 31878539,
   "status": "passed"
 });
 formatter.match({
@@ -2396,7 +2437,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Annual_saving_heading(String)"
 });
 formatter.result({
-  "duration": 19614445,
+  "duration": 35114684,
   "status": "passed"
 });
 formatter.match({
@@ -2409,7 +2450,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Estimated_bill_heading(String)"
 });
 formatter.result({
-  "duration": 20200502,
+  "duration": 35124948,
   "status": "passed"
 });
 formatter.match({
@@ -2422,7 +2463,7 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_see_heading_available_next_to_Tariff_type_heading(String)"
 });
 formatter.result({
-  "duration": 19542085,
+  "duration": 32035060,
   "status": "passed"
 });
 formatter.match({
@@ -2435,18 +2476,31 @@ formatter.match({
   "location": "EnergyResultsStepDef.i_See_heading_available_next_to_Payment_type_heading(String)"
 });
 formatter.result({
-  "duration": 17049546,
+  "duration": 33753204,
   "status": "passed"
 });
 formatter.match({
   "location": "EnergyResultsStepDef.i_should_be_able_to_see_tariff_results()"
 });
 formatter.result({
-  "duration": 7163549,
+  "duration": 33218979,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 12
+    }
+  ],
+  "location": "CommonStepDef.i_wait_for_seconds(String)"
+});
+formatter.result({
+  "duration": 1999978960,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1277167630,
+  "duration": 2990901230,
   "status": "passed"
 });
 });

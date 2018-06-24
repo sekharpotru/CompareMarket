@@ -41,7 +41,7 @@ public class CommonStepDef extends Common {
 
 	@After
 	public void testShutdown() {
-		driver.quit();
+		driver.close();
 		driver = null;
 	}
 }

@@ -57,7 +57,7 @@ Feature: Web :: User Energy Comparison journey
     And I enter my email address as "richmond.adam@gmail.com" in the given textbox
     And I check the given check box to confirm that i have read and undrestood terms and conditions
     When I click on Go to prices button at below right
-    And I wait for "5" seconds
+    And I wait for "7" seconds
     Then I should be able to navigate to results page
     And I check postcode "PE2 6YS" i have entered displayed under supplier details section
     And I check if it is showing "EDF Energy" as my electricity supplier under supplier details section
@@ -78,6 +78,7 @@ Feature: Web :: User Energy Comparison journey
     And I see "Payment type" heading available next to Tariff type heading
     And I See "Supplier rating" heading available next to Payment type heading
     Then I should be able to see tariff results
+    And I wait for "2" seconds
 
   @Gas
   Scenario: User Gas Comparison journey
@@ -107,7 +108,7 @@ Feature: Web :: User Energy Comparison journey
     And I enter my email address as "shushi.muvva@hotmail.com" in the given textbox
     And I check the given check box to confirm that i have read and undrestood terms and conditions
     When I click on Go to prices button at below right
-    And I wait for "10" seconds
+    And I wait for "7" seconds
     Then I should be able to navigate to results page
     And I check postcode "PE2 6YS" i have entered displayed under supplier details section
     And I check if it is showing "British Gas" as my default gas supplier under supplier details section
@@ -125,6 +126,7 @@ Feature: Web :: User Energy Comparison journey
     And I see "Payment type" heading available next to Tariff type heading
     And I See "Supplier rating" heading available next to Payment type heading
     Then I should be able to see tariff results
+    And I wait for "2" seconds
 
   @Electricity
   Scenario: User Electricity Comparison journey
@@ -145,7 +147,7 @@ Feature: Web :: User Energy Comparison journey
     And I enter my email address as "shiva.sup@gmail.com" in the given textbox
     And I check the given check box to confirm that i have read and undrestood terms and conditions
     When I click on Go to prices button at below right
-    And I wait for "10" seconds
+    And I wait for "7" seconds
     Then I should be able to navigate to results page
     And I check postcode "PE2 6YS" i have entered displayed under supplier details section
     And I check if it is showing "Ecotricity" as my electricity supplier under supplier details section
@@ -162,3 +164,4 @@ Feature: Web :: User Energy Comparison journey
     And I see "Payment type" heading available next to Tariff type heading
     And I See "Supplier rating" heading available next to Payment type heading
     Then I should be able to see tariff results
+    And I wait for "2" seconds

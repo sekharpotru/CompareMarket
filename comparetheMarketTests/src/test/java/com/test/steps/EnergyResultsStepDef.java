@@ -4,10 +4,13 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import com.test.pages.EnergyResultsPlatform;
+import com.test.pages.Utilityfunc;
 
 import cucumber.api.java.en.Then;
 
 public class EnergyResultsStepDef extends Common {
+	
+	Utilityfunc util = new Utilityfunc();
 
 	public EnergyResultsPlatform EnergyResultsPlatformPage;
 
@@ -157,6 +160,7 @@ public class EnergyResultsStepDef extends Common {
 
 	@Then("^I should be able to see tariff results$")
 	public void i_should_be_able_to_see_tariff_results() throws Throwable {
+		util.scrollDown();
 		assertTrue("RESULT SIZE IS EMPTY", EnergyResultsPlatformPage.resultSize() > 0);
 	}
 

@@ -26,8 +26,8 @@ public class DriverManager {
 			FirefoxProfile profile = new FirefoxProfile();
 			profile.setPreference("javascript.enabled", true);
 			driver = new FirefoxDriver();
-			//driver.manage().window().maximize();
-			driver.manage().window().setSize(new Dimension(1800, 1000));
+			driver.manage().window().fullscreen();
+			//driver.manage().window().setSize(new Dimension(1375, 725));
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		} 		
 		return driver;
